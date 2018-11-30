@@ -3,6 +3,7 @@ const title = document.querySelector("#title");
 const CLICK_CLASS = "clicked";
 
 function handleClick() {
+  // css 에서 정의한 ".clicked" class를 toggle
   title.classList.toggle(CLICK_CLASS);
 }
 
