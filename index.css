@@ -4,10 +4,9 @@ body {
   background-color: #ecf0f1;
 }
 
-/* h1 tag selector */
-h1 {
+/* body tag selector */
+body {
   color: #34495e;
-  transition: color 0.5s ease-in-out;
 }
 
 /* btn class selector */
