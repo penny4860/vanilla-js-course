@@ -13,10 +13,13 @@ function paintToDo(text) {
   li.appendChild(delBtn);
   li.appendChild(span);
   toDoList.appendChild(li);
+  //toDoList -> li -> delBtn / span
 }
 
 function handleSubmit(event) {
   event.preventDefault();
+
+  //todo form에서 입력한 텍스트
   const currentValue = toDoInput.value;
   paintToDo(currentValue);
   toDoInput.value = "";
