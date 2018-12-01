@@ -1,16 +1,21 @@
+
+/* body tag selector */
 body {
   background-color: #ecf0f1;
 }
 
-.btn {
-  cursor: pointer;
-}
-
+/* h1 tag selector */
 h1 {
   color: #34495e;
   transition: color 0.5s ease-in-out;
 }
 
+/* btn class selector */
+.btn {
+  cursor: pointer;
+}
+
+/* clicked class selector */
 .clicked {
   color: #7f8c8d;
 }
